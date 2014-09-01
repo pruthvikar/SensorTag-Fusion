@@ -1,0 +1,2350 @@
+Reset(resetForDebug=1)
+Reset(resetForDebug=1)
+ReadConfig(*pConfig=0x26) = 1
+WriteConfig(config=0x22) = 1
+ReadXdataMemory(address=0x6249, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6276, count=2, pProtection=0x00000000)
+ReadStatus(*pStatus=0x22) = 1
+SetDebugInterfaceSpeed(slow=0)
+SetCodeBankCount(count=4)
+ReadConfig(*pConfig=0x22) = 1
+WriteConfig(config=0x20) = 1
+ReadStatus(*pStatus=0x22) = 1
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x00000000, addressIncrement=1)
+ReadFlashLockBits(*pLockBitsN=..., maxNumBytes=16, *pDebugLocked=0) = 16
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0xA2) = 1
+ReadStatus(*pStatus=0x22) = 1
+EraseFlash() = 1
+ReadStatus(*pStatus=0x22) = 1
+ReadStatus(*pStatus=0x22) = 1
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x00000000, addressIncrement=1)
+ReadFlashLockBits(*pLockBitsN=..., maxNumBytes=16, *pDebugLocked=0) = 16
+WriteCodeMemory(address=0x0000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x0800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x1000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x1800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x2000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x2800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x3000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x3800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x4000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x4800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x5000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x5800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x6000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x6800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x7000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x7800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xD000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xD800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xE000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xE800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xF000, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xF800, bank=0x81, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xD000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xD800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xE000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xE800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xF000, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xF800, bank=0x82, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xD000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xD800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xE000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xE800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xF000, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xF800, bank=0x83, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8000, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x8800, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9000, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0x9800, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA000, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xA800, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB000, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xB800, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC000, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+WriteCodeMemory(address=0xC800, bank=0x84, count=2048, pProtection=0x00000000, noPreserveMem=1, erasePage=1)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0800, count=16, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xD5, count=4, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=2, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x802, count=6, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteXdataList(*pAddressList=0x808, count=3, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6270, count=1, pProtection=0x00000000)
+WriteConfig(config=0x20) = 1
+CalcCodePageCrc(pPageData=0x10F03888) = 0x88C1
+ReadCodePageCrc(address=0x0000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x88C1)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xDAB9
+ReadCodePageCrc(address=0x0800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xDAB9)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xE14A
+ReadCodePageCrc(address=0x1000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xE14A)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x47BF
+ReadCodePageCrc(address=0x1800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x47BF)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x04B4
+ReadCodePageCrc(address=0x2000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x04B4)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x95C5
+ReadCodePageCrc(address=0x2800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x95C5)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x266D
+ReadCodePageCrc(address=0x3000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x266D)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x4699
+ReadCodePageCrc(address=0x3800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x4699)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x46F6
+ReadCodePageCrc(address=0x4000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x46F6)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x6234
+ReadCodePageCrc(address=0x4800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x6234)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x86C1
+ReadCodePageCrc(address=0x5000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x86C1)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x24CF
+ReadCodePageCrc(address=0x5800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x24CF)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xA3AB
+ReadCodePageCrc(address=0x6000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xA3AB)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xD4ED
+ReadCodePageCrc(address=0x6800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xD4ED)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x1B63
+ReadCodePageCrc(address=0x7000, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x1B63)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xCFD2
+ReadCodePageCrc(address=0x7800, bank=0x80, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xCFD2)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x3871
+ReadCodePageCrc(address=0x18000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x3871)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x7DEF
+ReadCodePageCrc(address=0x18800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x7DEF)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xC792
+ReadCodePageCrc(address=0x19000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xC792)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x3CF1
+ReadCodePageCrc(address=0x19800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x3CF1)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xB453
+ReadCodePageCrc(address=0x1A000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xB453)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xEEC6
+ReadCodePageCrc(address=0x1A800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xEEC6)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xBB72
+ReadCodePageCrc(address=0x1B000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xBB72)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x643E
+ReadCodePageCrc(address=0x1B800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x643E)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xFA07
+ReadCodePageCrc(address=0x1C000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xFA07)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xAF4C
+ReadCodePageCrc(address=0x1C800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xAF4C)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x3E50
+ReadCodePageCrc(address=0x1D000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x3E50)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xA14A
+ReadCodePageCrc(address=0x1D800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xA14A)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x84B8
+ReadCodePageCrc(address=0x1E000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x84B8)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x8BB4
+ReadCodePageCrc(address=0x1E800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x8BB4)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xA2B9
+ReadCodePageCrc(address=0x1F000, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xA2B9)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x4CF4
+ReadCodePageCrc(address=0x1F800, bank=0x81, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x4CF4)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x4D39
+ReadCodePageCrc(address=0x28000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x4D39)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x18C5
+ReadCodePageCrc(address=0x28800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x18C5)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x9B90
+ReadCodePageCrc(address=0x29000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x9B90)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x50DB
+ReadCodePageCrc(address=0x29800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x50DB)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x1AED
+ReadCodePageCrc(address=0x2A000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x1AED)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x3726
+ReadCodePageCrc(address=0x2A800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x3726)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xEA23
+ReadCodePageCrc(address=0x2B000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xEA23)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xFC2E
+ReadCodePageCrc(address=0x2B800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xFC2E)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x3954
+ReadCodePageCrc(address=0x2C000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x3954)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x6D5A
+ReadCodePageCrc(address=0x2C800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x6D5A)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x6666
+ReadCodePageCrc(address=0x2D000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x6666)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x966B
+ReadCodePageCrc(address=0x2D800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x966B)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x59CB
+ReadCodePageCrc(address=0x2E000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x59CB)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x7C3B
+ReadCodePageCrc(address=0x2E800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x7C3B)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x261B
+ReadCodePageCrc(address=0x2F000, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x261B)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xAB2F
+ReadCodePageCrc(address=0x2F800, bank=0x82, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xAB2F)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xBA09
+ReadCodePageCrc(address=0x38000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xBA09)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xDC2C
+ReadCodePageCrc(address=0x38800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xDC2C)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xA684
+ReadCodePageCrc(address=0x39000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xA684)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xB88A
+ReadCodePageCrc(address=0x39800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xB88A)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x829C
+ReadCodePageCrc(address=0x3A000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x829C)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xE5DC
+ReadCodePageCrc(address=0x3A800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xE5DC)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x5D35
+ReadCodePageCrc(address=0x3B000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x5D35)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x27CD
+ReadCodePageCrc(address=0x3B800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x27CD)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xCDAA
+ReadCodePageCrc(address=0x3C000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xCDAA)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xFCCD
+ReadCodePageCrc(address=0x3C800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xFCCD)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x056D
+ReadCodePageCrc(address=0x3D000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x056D)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xB3FB
+ReadCodePageCrc(address=0x3D800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xB3FB)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xA11B
+ReadCodePageCrc(address=0x3E000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xA11B)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xDC03
+ReadCodePageCrc(address=0x3E800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xDC03)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x5952
+ReadCodePageCrc(address=0x3F000, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x5952)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x8C82
+ReadCodePageCrc(address=0x3F800, bank=0x83, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x8C82)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xCEA1
+ReadCodePageCrc(address=0x48000, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xCEA1)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x1C5C
+ReadCodePageCrc(address=0x48800, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x1C5C)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x88D7
+ReadCodePageCrc(address=0x49000, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x88D7)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xC565
+ReadCodePageCrc(address=0x49800, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xC565)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x555A
+ReadCodePageCrc(address=0x4A000, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x555A)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xB278
+ReadCodePageCrc(address=0x4A800, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xB278)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x4104
+ReadCodePageCrc(address=0x4B000, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x4104)
+CalcCodePageCrc(pPageData=0x10F03888) = 0xA920
+ReadCodePageCrc(address=0x4B800, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0xA920)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x1926
+ReadCodePageCrc(address=0x4C000, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x1926)
+CalcCodePageCrc(pPageData=0x10F03888) = 0x8D85
+ReadCodePageCrc(address=0x4C800, bank=0x84, *pCrc=?)
+ReadConfig(*pConfig=0x20) = 1
+WriteConfig(config=0x22) = 1
+WriteXdataMemory(address=0x0000, count=8, pProtection=0x00000000)
+WriteSfrList(*pAddressList=0xBC, count=7, pProtection=0x00000000)
+ReadSfrMemory(address=0xD7, count=1, pProtection=0x00000000, addressIncrement=1)
+WriteConfig(config=0x20) = 1
+ReadSfrList(*pAddressList=0xBD, count=2, pProtection=0x00000000)
+->*pCrc=0x8D85)
+Reset(resetForDebug=1)
+Reset(resetForDebug=1)
+ReadConfig(*pConfig=0x26) = 1
+WriteConfig(config=0x22) = 1
+ReadXdataMemory(address=0x6249, count=1, pProtection=0x00000000)
+ReadXdataMemory(address=0x6276, count=2, pProtection=0x00000000)
+ReadConfig(*pConfig=0x22) = 1
+WriteConfig(config=0x20) = 1
+ReadProgCounter(*pProgCounter=0x0000, *pBank=1) = 1
+EnableHwBrkPoint(address=0xCE39, bank=4, brkpointnum=3) = DBGERR_SUCCESS
+DisableHwBrkPoint(address=0xCE39, bank=0x04, brkpointnum=3) = DBGERR_SUCCESS
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+EnableHwBrkPoint(address=0xCE39, bank=4, brkpointnum=3) = DBGERR_SUCCESS
+StartCpu() = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x2A) = 1
+DisableAllHwBrkPoints() = 1
+ReadProgCounter(*pProgCounter=0xCE39, *pBank=4) = 1
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x81, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadIdataMemory->
+ReadXdataMemory(address=0x1F00, count=256, pProtection=0x00000000)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x93, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x00000000, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x00000000, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0xD0, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x81, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x81, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x81, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x81, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+StartCpu() = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x53) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x42) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x42) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x42) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x02) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x42) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x42) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadStatus(*pStatus=0x10) = 1
+ReadSfrMemory(address=0x81, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadIdataMemory->
+ReadXdataMemory(address=0x1F00, count=256, pProtection=0x00000000)
+ReadSfrMemory(address=0x9F, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadSfrMemory(address=0x93, count=1, pProtection=0x10639565, addressIncrement=1)
+ReadConfig(*pConfig=0x00) = 1
